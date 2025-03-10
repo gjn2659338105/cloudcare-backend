@@ -18,6 +18,10 @@ def inference():
     for result in results:
         print("frame")
 
+   
+def send_alarm():
+    print("发送消息")
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
